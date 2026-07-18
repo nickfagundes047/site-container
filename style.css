@@ -1,1 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+body{
+    background:linear-gradient(135deg,#06192d,#0c2f52,#000);
+    color:white;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.conteudo{
+    max-width:700px;
+}
+
+.logo{
+    width:220px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.slogan{
+    font-size:1.2rem;
+    color:#d8d8d8;
+    margin-bottom:35px;
+    line-height:1.6;
+}
+
+.botoes{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.botao{
+    text-decoration:none;
+    color:white;
+    padding:18px;
+    border-radius:14px;
+    font-size:1.1rem;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cardapio{
+    background:#0066cc;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.ifood{
+    background:#ea1d2c;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
+
+.info{
+    background:#111;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.info h2{
+    margin-top:30px;
+    color:#4aa3ff;
+}
+
+.info p,
+.info a{
+    color:#ddd;
+    text-decoration:none;
+    margin-top:10px;
+    display:block;
+}
