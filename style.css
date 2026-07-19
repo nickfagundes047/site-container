@@ -19,7 +19,7 @@ body{
     width:100%;
     min-height:100vh;
 
-    background-image:url("píer.jpeg");
+    background-image:url("pier.jpeg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -113,14 +113,27 @@ h1{
 }
 
 .principal{
-
-    background:#f7941d;
-
+    background:#0d6efd;
 }
 
 .principal:hover{
+    background:#0b5ed7;
+}
 
-    background:#ffab3d;
+.botoes a:nth-child(2){
+    background:#25D366;
+}
+
+.botoes a:nth-child(2):hover{
+    background:#1da851;
+}
+
+.botoes a:nth-child(3){
+    background:#EA1D2C;
+}
+
+.botoes a:nth-child(3):hover{
+    background:#c81926;
 
 }
 
