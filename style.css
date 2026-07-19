@@ -222,5 +222,50 @@ footer a:hover{
         padding:16px;
 
     }
+.informacoes{
+
+    margin-top:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.informacoes a{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:1rem;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.informacoes a:hover{
+
+    color:#f7941d;
+
+}
+
+.icone-social{
+
+    width:24px;
+
+    height:24px;
 
 }
