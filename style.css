@@ -5,88 +5,209 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-    background:linear-gradient(135deg,#06192d,#0c2f52,#000);
+    background:#111;
     color:white;
 }
 
 .hero{
+    position:relative;
+    width:100%;
     min-height:100vh;
+
+    background-image:url("pier.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:30px;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+    backdrop-filter:brightness(.8);
 }
 
 .conteudo{
+    position:relative;
+    z-index:2;
+
+    width:90%;
     max-width:700px;
+
+    padding:40px 20px;
 }
 
 .logo{
-    width:220px;
+    width:180px;
+    max-width:80%;
     margin-bottom:25px;
+
+    filter:drop-shadow(0 8px 20px rgba(0,0,0,.45));
 }
 
 h1{
     font-size:3rem;
     margin-bottom:15px;
+
+    text-shadow:0 5px 15px rgba(0,0,0,.5);
 }
 
 .slogan{
     font-size:1.2rem;
-    color:#d8d8d8;
-    margin-bottom:35px;
-    line-height:1.6;
+    line-height:1.7;
+    color:#ececec;
+
+    margin-bottom:40px;
 }
 
 .botoes{
     display:flex;
     flex-direction:column;
-    gap:15px;
+    gap:18px;
 }
 
 .botao{
+    display:block;
+
     text-decoration:none;
+
+    background:rgba(255,255,255,.12);
+
     color:white;
+
     padding:18px;
-    border-radius:14px;
+
+    border-radius:15px;
+
     font-size:1.1rem;
     font-weight:bold;
-    transition:.3s;
-}
 
-.cardapio{
-    background:#0066cc;
-}
+    transition:.30s;
 
-.whatsapp{
-    background:#25D366;
-}
+    backdrop-filter:blur(10px);
 
-.ifood{
-    background:#ea1d2c;
+    border:1px solid rgba(255,255,255,.2);
 }
 
 .botao:hover{
-    transform:scale(1.05);
+
+    transform:translateY(-3px);
+
+    background:#f7941d;
+
+    color:white;
+
+    box-shadow:0 10px 30px rgba(247,148,29,.45);
+
 }
 
-.info{
-    background:#111;
-    padding:60px 20px;
+.principal{
+
+    background:#f7941d;
+
+}
+
+.principal:hover{
+
+    background:#ffab3d;
+
+}
+
+#cardapio{
+
+    background:#ffffff;
+
+    color:#222;
+
+    padding:80px 20px;
+
     text-align:center;
+
 }
 
-.info h2{
-    margin-top:30px;
-    color:#4aa3ff;
+#cardapio h2{
+
+    font-size:2.2rem;
+
+    margin-bottom:20px;
+
 }
 
-.info p,
-.info a{
-    color:#ddd;
+#cardapio p{
+
+    font-size:1.1rem;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.7;
+
+}
+
+footer{
+
+    background:#111;
+
+    padding:35px 20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    text-align:center;
+
+}
+
+footer a{
+
+    color:white;
+
     text-decoration:none;
-    margin-top:10px;
-    display:block;
+
+    font-size:1rem;
+
+}
+
+footer a:hover{
+
+    color:#f7941d;
+
+}
+
+@media (max-width:768px){
+
+    h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .logo{
+
+        width:150px;
+
+    }
+
+    .botao{
+
+        font-size:1rem;
+
+        padding:16px;
+
+    }
+
 }
