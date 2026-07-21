@@ -57,12 +57,11 @@ body{
 }
 
 h1{
-    font-size:3rem;
-    margin-bottom:15px;
-
-    text-shadow:0 5px 15px rgba(0,0,0,.5);
-}
-
+ font-family: 'Bebas Neue', sans-serif;
+font-size: 4rem;
+letter-spacing: 3px;
+font-weight: 400;
+text-shadow: 0 4px 12px rgba(0,0,0,.45);
 .slogan{
     font-size:1.2rem;
     line-height:1.7;
