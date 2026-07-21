@@ -21,7 +21,7 @@ body{
 
     background-image:url("pier.jpeg");
     background-size:cover;
-    background-position:center top;
+    background-position:center 40%;
     background-repeat:no-repeat;
 
     display:flex;
