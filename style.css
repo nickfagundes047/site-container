@@ -113,28 +113,49 @@ h1{
 }
 
 .principal{
-    background:#0d6efd;
+    background:linear-gradient(180deg,#29A8FF,#0D6EFD);
+    box-shadow:0 8px 25px rgba(13,110,253,.45);
 }
 
 .principal:hover{
-    background:#0b5ed7;
+    background:linear-gradient(180deg,#49B8FF,#2A7FFF);
 }
 
-.botoes a:nth-child(2){
-    background:#25D366;
+.whatsapp{
+    background:linear-gradient(180deg,#35E67A,#25D366);
+    box-shadow:0 8px 25px rgba(37,211,102,.45);
 }
 
-.botoes a:nth-child(2):hover{
-    background:#1da851;
+.whatsapp:hover{
+    background:linear-gradient(180deg,#50EF8D,#32DC73);
 }
 
-.botoes a:nth-child(3){
-    background:#EA1D2C;
+.ifood{
+    background:linear-gradient(180deg,#FF4B5C,#EA1D2C);
+    box-shadow:0 8px 25px rgba(234,29,44,.45);
 }
 
-.botoes a:nth-child(3):hover{
-    background:#c81926;
+.ifood:hover{
+    background:linear-gradient(180deg,#FF6574,#F02D3D);
+}
 
+.maps{
+    background:linear-gradient(180deg,#FFFFFF,#E5E5E5);
+    color:#222;
+    box-shadow:0 8px 25px rgba(255,255,255,.25);
+}
+
+.maps:hover{
+    background:linear-gradient(180deg,#FFFFFF,#F5F5F5);
+}
+
+.instagram{
+    background:linear-gradient(135deg,#833AB4,#C13584,#FD1D1D,#FCAF45);
+    box-shadow:0 8px 25px rgba(193,53,132,.45);
+}
+
+.instagram:hover{
+    filter:brightness(1.08);
 }
 
 #cardapio{
