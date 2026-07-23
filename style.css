@@ -283,11 +283,12 @@ footer a:hover{
 
 }
 
-.icone-social{
+.icone-social {
+    width: 24px;
+    height: 24px;
+}
 
-    width:24px;
-
-    .categorias {
+.categorias {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -310,7 +311,4 @@ footer a:hover{
 .categoria-card:hover {
     transform: translateY(-3px);
     background: #2b2b2b;
-}
-    height:24px;
-
 }
