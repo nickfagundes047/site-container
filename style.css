@@ -312,3 +312,48 @@ footer a:hover{
     transform: translateY(-3px);
     background: #2b2b2b;
 }
+.produto{
+    background: #fff;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.10);
+    text-align: left;
+}
+
+.produto h3{
+    margin: 0 0 10px;
+    color: #b22222;
+    font-size: 22px;
+}
+
+.produto p{
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.produto strong{
+    display: block;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #000;
+}
+
+.produto button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #b22222;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.produto button:hover{
+    background: #8b0000;
+}
