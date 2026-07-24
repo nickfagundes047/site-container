@@ -156,6 +156,50 @@ categorias.forEach(categoria => {
     <button>+ Adicionar</button>
 
 </div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Burguer</h3>
+
+    <p>Pão de 16 cm, maionese caseira, ovo, queijo mussarela e hamburguer.</p>
+
+    <strong>R$ 18,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Bagunça</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e 150g de coração, calabresa, frango e bacon.</p>
+
+    <strong>R$ 36,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis vegetariano</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, 2x ovo e 2x queijo mussarela.</p>
+
+    <strong>R$ 22,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+
 `;
 
     });
