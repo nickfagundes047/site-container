@@ -8,199 +8,50 @@ const produtos = document.getElementById("produtos");
 
 const botaoVoltar = document.getElementById("voltar");
 
+const cardapios = {
+
+    "X Gaúcho": `
+
+    `,
+
+    "Hambúrgueres Artesanais": `
+
+    `,
+
+    "Cachorro-Quente": `
+
+    `,
+
+    "Porções": `
+
+    `,
+
+    "Pratos": `
+
+    `,
+
+    "Bebidas": `
+
+    `,
+
+    "Açaí": `
+
+    `
+
+};
+
 categorias.forEach(categoria => {
 
     categoria.addEventListener("click", () => {
 
         areaCategorias.style.display = "none";
-
         listaProdutos.style.display = "block";
 
-        tituloCategoria.innerText = categoria.innerText;
+        const nomeCategoria = categoria.innerText;
 
-       produtos.innerHTML = `
-<div class="produto">
+        tituloCategoria.innerText = nomeCategoria;
 
-    <h3>Xis Salada</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e o hamburguer.</p>
-
-    <strong>R$ 25,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Frango</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e o frango 150g.</p>
-
-    <strong>R$ 25,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Calabresa</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e a calabresa 150g.</p>
-
-    <strong>R$ 30,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Coração</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e coração 150g.</p>
-
-    <strong>R$ 32,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Bacon</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela, hamburguer e bacon.</p>
-
-    <strong>R$ 34,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Acebolado</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e hamburguer com cebola.</p>
-
-    <strong>R$ 27,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Strogonoff</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela, batata palha e strogonoff 150g.</p>
-
-    <strong>R$ 35,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Fricasse</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela, batata palha e fricasse 150g.</p>
-
-    <strong>R$ 32,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Filé de carne</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e iscas de carne 150g.</p>
-
-    <strong>R$ 38,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Filé Acebolado</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e  iscas de carne 150g com cebola.</p>
-
-    <strong>R$ 40,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Burguer</h3>
-
-    <p>Pão de 16 cm, maionese caseira, ovo, queijo mussarela e hamburguer.</p>
-
-    <strong>R$ 18,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis Bagunça</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e 150g de coração, calabresa, frango e bacon.</p>
-
-    <strong>R$ 36,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-<hr>
-
-<div class="produto">
-
-    <h3>Xis vegetariano</h3>
-
-    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, 2x ovo e 2x queijo mussarela.</p>
-
-    <strong>R$ 22,00</strong><br><br>
-
-    <button>+ Adicionar</button>
-
-</div>
-
-
-`;
+        produtos.innerHTML = cardapios[nomeCategoria];
 
     });
 
@@ -209,7 +60,6 @@ categorias.forEach(categoria => {
 botaoVoltar.addEventListener("click", () => {
 
     listaProdutos.style.display = "none";
-
     areaCategorias.style.display = "flex";
 
 });
