@@ -100,6 +100,62 @@ categorias.forEach(categoria => {
     <button>+ Adicionar</button>
 
 </div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Strogonoff</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela, batata palha e strogonoff 150g.</p>
+
+    <strong>R$ 35,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Fricasse</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela, batata palha e fricasse 150g.</p>
+
+    <strong>R$ 32,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Filé de carne</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e iscas de carne 150g.</p>
+
+    <strong>R$ 38,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Xis Filé Acebolado</h3>
+
+    <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e  iscas de carne 150g com cebola.</p>
+
+    <strong>R$ 40,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
 `;
 
     });
