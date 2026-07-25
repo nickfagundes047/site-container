@@ -595,6 +595,243 @@ const cardapios = {
 
     "Bebidas": `
 
+<div class="produto">
+
+    <h3>Coca-Cola Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Coca-Cola Zero Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Sprite Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Fanta Laranja Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Fanta Uva Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Tônica Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Citrus Lata</h3>
+
+    <p>Refrigerante em lata (350 ml).</p>
+
+    <strong>R$ 7,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Baly</h3>
+
+    <p>Energético latão 473ml.</p>
+
+    <strong>R$ 12,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Monster</h3>
+
+    <p>Energético latão 473ml.</p>
+
+    <strong>R$ 15,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>H2O</h3>
+
+    <p>Bebida saborizada 500ml.</p>
+
+    <strong>R$ 9,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Água Mineral</h3>
+
+    <p>Garrafa de água mineral 500ml.</p>
+
+    <strong>R$ 5,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Água Mineral com gás</h3>
+
+    <p>Garrafa de água mineral 500ml.</p>
+
+    <strong>R$ 5,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+
+<div class="produto">
+
+    <h3>Corona Long Neck</h3>
+
+    <p>Cerveja Long Neck.</p>
+
+    <strong>R$ 15,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Heineken Long Neck</h3>
+
+    <p>Cerveja Long Neck.</p>
+
+    <strong>R$ 15,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Heineken Long Neck Sem Álcool</h3>
+
+    <p>Cerveja Long Neck sem álcool.</p>
+
+    <strong>R$ 15,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Amstel Lata</h3>
+
+    <p>Cerveja em lata.</p>
+
+    <strong>R$ 8,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Brahma Lata</h3>
+
+    <p>Cerveja em lata.</p>
+
+    <strong>R$ 8,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
     `,
 
     "Açaí": `
