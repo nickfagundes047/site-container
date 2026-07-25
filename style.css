@@ -357,3 +357,24 @@ footer a:hover{
 .produto button:hover{
     background: #8b0000;
 }
+#carrinho-flutuante{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #c62828;
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 50px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+
+    z-index: 999;
+}
