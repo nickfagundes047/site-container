@@ -10,6 +10,17 @@ const botaoVoltar = document.getElementById("voltar");
 
 let carrinho = [];
 
+function adicionarAoCarrinho(nome, preco) {
+
+    carrinho.push({
+        nome: nome,
+        preco: preco
+    });
+
+    console.log(carrinho);
+
+}
+
 const cardapios = {
 
     "X Gaúcho": `
