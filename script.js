@@ -8,6 +8,8 @@ const produtos = document.getElementById("produtos");
 
 const botaoVoltar = document.getElementById("voltar");
 
+let carrinho = [];
+
 const cardapios = {
 
     "X Gaúcho": `
