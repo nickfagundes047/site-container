@@ -253,6 +253,116 @@ const cardapios = {
 
     "Cachorro-Quente": `
 
+<div class="produto">
+
+    <h3>Dog Simples</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha e 1 salsicha.</p>
+
+    <strong>R$ 18,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Duplo</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha e 2 salsichas.</p>
+
+    <strong>R$ 20,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Coração</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 1 salsicha e 150 g de coração.</p>
+
+    <strong>R$ 24,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog 3 Queijos</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 2 salsichas, mussarela, Catupiry e cheddar cremoso.</p>
+
+    <strong>R$ 28,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Frango</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 1 salsicha e 150g de frango.</p>
+
+    <strong>R$ 22,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Bacon</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 1 salsicha e 150g de bacon.</p>
+
+    <strong>R$ 24,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Bacon e Cheddar</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 1 salsicha, 150g de bacon e cheddar cremoso.</p>
+
+    <strong>R$ 27,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Dog Frango com Catupiry</h3>
+
+    <p>Pão, maionese caseira, milho, ervilha, alface, tomate, molho vermelho, batata palha, 1 salsicha, 150g de frango e Catupiry.</p>
+
+    <strong>R$ 27,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
     `,
 
     "Porções": `
