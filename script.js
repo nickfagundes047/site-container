@@ -195,6 +195,60 @@ const cardapios = {
 
     "Hambúrgueres Artesanais": `
 
+<div class="produto">
+
+    <h3>O Container I</h3>
+
+    <p>Pão brioche, 1 hambúrguer de 150 g, molho verde, cheddar cremoso, bacon em tiras, alface, tomate e onion rings. Acompanha uma porção de batata frita de 200 g.</p>
+
+    <strong>R$ 40,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>O Container II</h3>
+
+    <p>Pão brioche, 2 hambúrgueres de 150 g, molho verde, 2x cheddar cremoso, 2x bacon em tiras, alface, tomate e 2x onion rings. Acompanha uma porção de batata frita de 200 g.</p>
+
+    <strong>R$ 45,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>O Container III</h3>
+
+    <p>Pão brioche, 1 hambúrguer de 150 g, molho verde, cheddar cremoso, bacon em tiras, alface, tomate e cebola caramelizada. Acompanha uma porção de batata frita de 200 g.</p>
+
+    <strong>R$ 40,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>O Container IV</h3>
+
+    <p>Pão brioche, 2 hambúrgueres de 150 g, molho verde, 2x cheddar cremoso, 2x bacon em tiras, alface, tomate e 2x cebola caramelizada. Acompanha uma porção de batata frita de 200 g.</p>
+
+    <strong>R$ 45,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
     `,
 
     "Cachorro-Quente": `
