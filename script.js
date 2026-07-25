@@ -367,9 +367,229 @@ const cardapios = {
 
     "Porções": `
 
+<div class="produto">
+
+    <h3>Fritas Pequena</h3>
+
+    <p>Porção de batata frita (200 g).</p>
+
+    <strong>R$ 15,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Fritas Média</h3>
+
+    <p>Porção de batata frita (400 g).</p>
+
+    <strong>R$ 30,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Fritas Grande</h3>
+
+    <p>Porção de batata frita (700 g).</p>
+
+    <strong>R$ 40,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Fritas com Bacon e Cheddar</h3>
+
+    <p>Porção de batata frita (700 g), bacon e cheddar cremoso.</p>
+
+    <strong>R$ 65,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Porção de Polenta</h3>
+
+    <p>Porção de polenta frita (400 g).</p>
+
+    <strong>R$ 25,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Anéis de Cebola</h3>
+
+    <p>Porção de onion rings (400 g).</p>
+
+    <strong>R$ 38,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Camarão Soltinho</h3>
+
+    <p>Porção de camarão empanado (400 g).</p>
+
+    <strong>R$ 90,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Porção de Tilápia</h3>
+
+    <p>Porção de tilápia (400 g).</p>
+
+    <strong>R$ 75,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Porção de Peixe</h3>
+
+    <p>Porção de peixe (400 g).</p>
+
+    <strong>R$ 60,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Bolinho de Peixe</h3>
+
+    <p>Porção com 12 bolinhos de peixe.</p>
+
+    <strong>R$ 50,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Anéis de Lula</h3>
+
+    <p>Porção de anéis de lula empanados (400 g).</p>
+
+    <strong>R$ 80,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Bolinho de Camarão</h3>
+
+    <p>Porção com 12 bolinhos de camarão.</p>
+
+    <strong>R$ 55,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Frango a Passarinho</h3>
+
+    <p>Porção de frango a passarinho (700 g).</p>
+
+    <strong>R$ 55,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
     `,
 
     "Pratos": `
+
+<div class="produto">
+
+    <h3>Prato Executivo - Carne</h3>
+
+    <p>Arroz, feijão, fritas, salada, ovo e carne bovina.</p>
+
+    <strong>R$ 35,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Prato Executivo - Frango</h3>
+
+    <p>Arroz, feijão, fritas, salada, ovo e filé  de frango.</p>
+
+    <strong>R$ 35,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
+
+<hr>
+
+<div class="produto">
+
+    <h3>Prato Executivo - Filé de Peixe</h3>
+
+    <p>Arroz, feijão, fritas, salada, ovo e filé de peixe.</p>
+
+    <strong>R$ 35,00</strong><br><br>
+
+    <button>+ Adicionar</button>
+
+</div>
 
     `,
 
