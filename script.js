@@ -33,7 +33,7 @@ const cardapios = {
 
     <strong>R$ 25,00</strong><br><br>
 
-    <button>+ Adicionar</button>
+    <button onclick="adicionarAoCarrinho('Xis Salada', 25.00)">+ Adicionar</button>
 
 </div>
 
