@@ -11,9 +11,11 @@ const botaoVoltar = document.getElementById("voltar");
 const cardapios = {
 
     "X Gaúcho": `
-<h3>Xis Salada</h3>
 
 <div class="produto">
+
+    <h3>Xis Salada</h3>
+
     <p>Pão de 16 cm, maionese caseira, milho, ervilha, alface, tomate, ovo, queijo mussarela e o hamburguer.</p>
 
     <strong>R$ 25,00</strong><br><br>
