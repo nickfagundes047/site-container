@@ -19,6 +19,8 @@ function adicionarAoCarrinho(nome, preco) {
         preco: preco
     });
 
+contadorCarrinho.textContent = carrinho.length;
+    
     console.log(carrinho);
 
 }
