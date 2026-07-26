@@ -12,6 +12,8 @@ const contadorCarrinho = document.getElementById("contador-carrinho");
 
 let carrinho = [];
 
+const carrinhoFlutuante = document.getElementById("carrinho-flutuante");
+
 function adicionarAoCarrinho(nome, preco) {
 
     carrinho.push({
