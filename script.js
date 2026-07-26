@@ -882,3 +882,9 @@ botaoVoltar.addEventListener("click", () => {
     areaCategorias.style.display = "flex";
 
 });
+
+carrinhoFlutuante.addEventListener("click", () => {
+
+    alert("Você possui " + carrinho.length + " item(ns) no carrinho.");
+
+});
