@@ -8,6 +8,8 @@ const produtos = document.getElementById("produtos");
 
 const botaoVoltar = document.getElementById("voltar");
 
+const contadorCarrinho = document.getElementById("contador-carrinho");
+
 let carrinho = [];
 
 function adicionarAoCarrinho(nome, preco) {
