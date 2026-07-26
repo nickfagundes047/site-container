@@ -886,8 +886,14 @@ botaoVoltar.addEventListener("click", () => {
 
 });
 
-carrinhoFlutuante.addEventListener("click", () => {
+carrinhoFlutuante.addEventListener("click", function () {
 
-    alert("Você possui " + carrinho.length + " item(ns) no carrinho.");
+    janelaCarrinho.style.display = "block";
+
+});
+
+botaoFecharCarrinho.addEventListener("click", function () {
+
+    janelaCarrinho.style.display = "none";
 
 });
